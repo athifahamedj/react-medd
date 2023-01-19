@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.rootContainer {
+  background-color: DodgerBlue;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  /* justify-content: left; */
+
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  /* color: white; */
+}
+
+.nav-item>Button {
+  top: 10px;
+}
+
+.helpIcon {
+  position: relative;
+  top: 5px;
+}
+
+.nextContainer {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+
+}
+
+.item-links {
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  /* justify-content: left; */
+
+}
+
+.item-links a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin-right: 2px;
+  margin-top: -10px;
+  color: white !important;
+
+}
