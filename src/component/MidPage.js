@@ -89,7 +89,7 @@ function MidPage(){
             <div className="search-box"><span className=""></span><p className="text-design">What Are You Looking For ?</p>
               <h3 className="text-css">The Pharmacy that delivers</h3>
               <input type="text" onChange={(e)=>updateVal(e.target.value)} placeholder="Search for Medicines and Health Products"/>
-              <span onChange>{initialVal}</span>
+              <span >{initialVal}</span>
             </div>
            
           </div>
