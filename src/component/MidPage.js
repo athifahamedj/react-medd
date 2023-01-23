@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useRef} from "react";
+import { useState } from "react";
 import Carousel from "./Carousels";
 import Scroller from "./Scroller";
 
@@ -17,6 +18,7 @@ import certi from "../assets/certi.png";
 import product_1 from "../assets/product_1.png";
 import product_2 from "../assets/product_2.png";
 import product_3 from "../assets/product_3.png";
+
 
 // Service Name & description
 const ser1 = <img src={tablet}/>
@@ -66,9 +68,18 @@ const product = [
 
   
  ]
+
+//  const getInputVal = (val)=>{
+//     console.log(val);
+//  }
+ 
+
 function MidPage(){
+  const[initialVal, updateVal] = useState("");
+  
   return(
   <React.Fragment>
+
 
           <div  className= "bg-img">
             <img  src={bg} height="100%" width="100%"></img>
@@ -77,7 +88,8 @@ function MidPage(){
             <div className="search-dropdown"></div>
             <div className="search-box"><span className=""></span><p className="text-design">What Are You Looking For ?</p>
               <h3 className="text-css">The Pharmacy that delivers</h3>
-              <input type="text" placeholder="Search for Medicines and Health Products"/>
+              <input type="text" onChange={(e)=>updateVal(e.target.value)} placeholder="Search for Medicines and Health Products"/>
+              <span onChange>{initialVal}</span>
             </div>
            
           </div>

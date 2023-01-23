@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
 import MidPage from "./MidPage";
 import Section from "./Section";
@@ -9,6 +9,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 const Header=()=>{
+
 
   return(
     <React.Fragment>
@@ -31,10 +32,11 @@ const Header=()=>{
                 <li className="nav-item"><a href="#"><PermIdentityIcon/></a></li>
               </ul>
             </div>
-            
        
       </div>
       <div className="nextContainer">
+
+
         <ul className="item-links">
           <li className="second-items"><a href="#">Medicines</a></li> | 
           <li className="second-items"><a href="#">COVID Essentials</a></li> | 
