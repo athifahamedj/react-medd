@@ -1,0 +1,32 @@
+/* Medical scroller*/
+
+  .medical-scroller{
+    margin: 0.1rem auto 1.5rem;
+    padding: 1px 10px;
+    min-width: 200;
+    padding: 25px 10px;
+  }
+
+  h1 {
+    margin: 0.1rem auto 1.5rem;
+    /* padding: 1px 100px; */
+    width: min-content;
+  }
+
+  /* .frame{
+    display: flex;
+    min-width: 200px;
+    margin: auto 1rem;
+
+  } */
+  .med--image {
+    width: 25%;
+    height: 16em;
+    padding: 1rem;
+    object-fit: scale-down;
+    background-size: contain;
+    min-width: 160px;
+    margin: auto 1rem;
+    
+  }
+  
