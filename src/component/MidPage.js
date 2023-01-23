@@ -76,8 +76,9 @@ function MidPage(){
             
             <div className="search-dropdown"></div>
             <div className="search-box"><span className=""></span><p className="text-design">What Are You Looking For ?</p>
-            <h3 className="text-css">The Pharmacy that delivers</h3>
-            <input type="text" placeholder="Search for Medicines and Health Products"/></div>
+              <h3 className="text-css">The Pharmacy that delivers</h3>
+              <input type="text" placeholder="Search for Medicines and Health Products"/>
+            </div>
            
           </div>
           <div className="upload-btn"><span className="order-text-css">ORDER WITH PRESCRIPTION</span><span className="btn-css"><Button  variant="outlined" size="small" color="error">UPLOAD NOW</Button></span></div>

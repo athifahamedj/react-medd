@@ -8,8 +8,8 @@ import Medical from "./Medical";
 import { medData, responsive } from "./data";
 
 function Carousels() {
-  const medical = medData.map((item) => (
-    <Medical
+  const medical = medData.map((item, key) => (
+    <Medical key = {key}
     url={item.image}
     />
   ));
